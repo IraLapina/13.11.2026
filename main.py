@@ -49,3 +49,6 @@ def serve_images(path):
     return send_from_directory('static/img', path)
 
 app.run(debug=True)
+
+print("Hello world!")
+print("Hello, Git world!")
